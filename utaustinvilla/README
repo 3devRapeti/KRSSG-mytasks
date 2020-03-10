@@ -1,0 +1,49 @@
+UT Austin Villa 2019 RoboCup 3D Simulation League Team
+University of Texas at Austin Computer Science Department, USA
+Champions of RoboCup 2019 in Sydney, Australia
+
+This binary was compiled and tested on a 64-bit Ubuntu 16.04.4
+(Xenial Xerus) system.  It was used in the RoboCup 2019 competition in
+Sydney, Australia.
+
+Compatibility:
+rcssserver3d 0.7.2
+simspark 0.3.1
+
+
+-- Instructions for running agent --
+Run full team:
+./start.sh <host>
+
+Run penalty kick shooter:
+./start_penalty_kicker.sh <host>
+
+Run penalty kick goalie:
+./start_penalty_goalie.sh <host>
+
+Kill team:
+./kill.sh
+
+List command line options:
+./utaustinvilla --help
+
+
+Team members:
+Patrick MacAlpine, Faraz Torabi, Brahma Pavse, Peter Stone
+
+Team homepage:
+http://www.cs.utexas.edu/~AustinVilla/sim/3dsimulation/
+
+Contact:
+Peter Stone (supervising professor): pstone@cs.utexas.edu
+Patrick MacAlpine (postdoc team leader): patmac@cs.utexas.edu
+
+
+This agent team was developed in the Learning Agents Research Group (LARG) at
+UT Austin.  LARG research is supported in part by NSF (IIS-1637736, IIS-1651089,
+IIS-1724157), ONR (N00014-18-2243), FLI (RFP2-000), ARL, DARPA, Intel, Raytheon,
+and Lockheed Martin. Peter Stone serves on the Board of Directors of Cogitai,
+Inc.  The terms of this arrangement have been reviewed and approved by the
+University of Texas at Austin in accordance with its policy on objectivity in
+research.  Patrick MacAlpine is an employee of Microsoft and supported by
+Microsoft Research.
